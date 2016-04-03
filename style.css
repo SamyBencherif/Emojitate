@@ -4,9 +4,31 @@ html, body { width:100%; height:100%; } /* just to be sure these are full screen
 
 canvas { display:block; } /* To remove the scrollbars */
 
-div {
+#moreinfo {
     position: absolute;
     bottom: 20px;
     left: 40%;
     text-align: center;
+}
+
+#info
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.58);
+    color: white;
+    top: 35%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    overflow: hidden;
+
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+#infotext
+{
+    position: absolute;
+    left: 42%;
+    bottom: 10px;
 }
